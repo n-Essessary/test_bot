@@ -51,7 +51,7 @@ def round_to_tick_size(amount):
 
 # Загружаем АПИ ключ из txt файла
 def load_api_keys():
-    with open("api_keys_real.txt", "r") as f:
+    with open("api_keys.txt", "r") as f:
         api_key = f.readline().strip()
         api_secret = f.readline().strip()
         passphrase = f.readline().strip()  
